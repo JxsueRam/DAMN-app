@@ -1,17 +1,18 @@
-# flutter_application_1
+##  Resumen
+Setup inicial del proyecto SACAD. Se agrega la estructura base para el backend 
+y la base de datos, sin tocar el proyecto Flutter existente.
 
-A new Flutter project.
+##  Cambios incluidos
+- **Estructura de carpetas**: `database/`, `backend/`, `docs/`
+- **Base de datos**: `schema.sql` con 8 tablas (usuario, carrera, examen, etc.)
+- **Seeds**: datos de prueba con carreras de ESCOM y exámenes de ejemplo
+- **Documentación**: guía de configuración de Aiven MySQL
+- **.gitignore**: reglas para proteger credenciales y certificados
 
-## Getting Started
+##  Requerimientos  cubiertos
+- §5.4 Estandarización de nombres (minúsculas y singular) ✅
+- §5.3 Commits atómicos y descriptivos ✅
+- §2 Diseño preparado para sentencias preparadas (PDO) ✅
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##  Siguiente paso
+Implementar el backend PHP que consuma esta base de datos.
