@@ -43,3 +43,31 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+# ===============================================
+# SACAD - Backend y credenciales
+# ===============================================
+
+# ---- Credenciales y secretos ----
+.env
+.env.local
+*.env
+backend/certs/
+*.pem
+*.key
+*.crt
+
+# ---- Logs ----
+backend/logs/
+*.log
+
+# ---- PHP ----
+backend/composer.lock
+backend/vendor/
+
+# ---- Docker ----
+backend/docker/data/
+
+# ---- Sistema operativo ----
+.DS_Store
+Thumbs.db
+desktop.ini
