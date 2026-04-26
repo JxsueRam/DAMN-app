@@ -15,7 +15,7 @@
 INSERT INTO usuario (nombre_usuario, correo, password_hash, nombre_completo, rol)
 VALUES
 ('admin', 'admin@ipn.mx',
- '$2y$10$REEMPLAZA_ESTE_HASH_CON_EL_QUE_GENERES_CON_PHP',
+ '$2y$10$Koedev1AlS2GPcmLlPXja.znz/gdZYM.xbxFaqBQNHbM1BP23cpNm',
  'Administrador General', 'superadmin');
 
 
